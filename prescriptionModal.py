@@ -47,7 +47,7 @@ if extracted_text:
     print(texte_nettoye)
 
     # Analyse du texte avec SpaCy
-    doc = nlp("Marseille, le 4 février 2020 Madame Dupont Germaine 59 ans, 64 kg amoxilline 500 mg, CLAMOXYL 500 mg , 2 gélules matin et soir. LOSEC 20 mg, 1 gélule le matin pendant 1 mois. QSP 8 jours AR 3 fois, NS LACTIBIANE, 1 sachet dans un verre d eau le matin pendant 10 jours.")
+    doc = nlp(texte_nettoye)
 
     # Extraction des médicaments détectés
     medicaments_detectes = []
